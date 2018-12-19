@@ -9,28 +9,48 @@ namespace Server
     public class Impl : MarshalByRefObject, ClassLibrary1.Iteacher, ClassLibrary1.Istudent
     {
 
-        Cours[] cours = new Cours[100];
-        Inscription[] inscritpions = new Inscription[100];
+        Cours[] cours = new Cours[10];
+        Inscription[] inscritpions = new Inscription[10];
+
         public Impl()
         {
-
+        
         }
 
-        public void ajouterCours(Cours c)
+        public bool ajouterCours(Cours c)
         {
             for (int i = 0; i < cours.Length; i++)
             {
-                if (cours[i] != null)
+                if (cours[i] == null)
                 {
                     cours[i] = c;
-                    Console.WriteLine(cours[i].NomCours);
+                    return true;
+                }
+
+            }
+            return false;
+        }
+
+        public string[] consulterEleve(string intiule)
+        {
+            string[] eleves = new string[10];
+
+            int j = 0;
+            for (int i = 0; i < inscritpions.Length; i++)
+            {
+                if (inscritpions[i] != null && intiule.Equals(inscritpions[i].NomCours))
+                {
+                    eleves[j] = inscritpions[i].Eleve;
+                    j++;
                 }
             }
+            return eleves;
+
         }
 
         public Cours[] consulterCours()
         {
-            Cours[] courPlaceVide = new Cours[100];
+            Cours[] courPlaceVide = new Cours[10];
 
             int j = 0;
             for (int i = 0; i < cours.Length; i++)
@@ -45,22 +65,7 @@ namespace Server
             return courPlaceVide;
         }
 
-        public string[] consulterEleve(string intiule)
-        {
-            string[] eleves = new string[100];
-
-            int j = 0;
-            for (int i = 0; i < inscritpions.Length; i++)
-            {
-                if (inscritpions[i] != null && intiule.Equals(inscritpions[i].NomCours))
-                {
-                    eleves[j] = inscritpions[i].Eleve;
-                    j++;
-                }
-            }
-            return eleves;
-
-        }
+ 
 
         public bool inscrire(string eleve, string intitule)
         {
@@ -87,6 +92,18 @@ namespace Server
             return false;
         }
 
+
+
+        public Cours[] afficherCours()
+        {
+            Cours[] listcours = new Cours[10];
+            for(int i = 0; i < cours.Length; i++)
+            {
+                listcours[i]=cours[i];
+            }
+
+            return listcours ;
+        }
     }
 }
 

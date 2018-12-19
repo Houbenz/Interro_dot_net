@@ -10,6 +10,7 @@ namespace ClassLibrary1
     {
 
         Cours[] consulterCours();
+
         bool inscrire(string eleve, string intitule);
     }
 

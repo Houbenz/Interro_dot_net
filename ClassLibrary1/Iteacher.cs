@@ -8,8 +8,8 @@ namespace ClassLibrary1
 {
     public interface Iteacher
     {
-        void ajouterCours(Cours cours);
+        bool ajouterCours(Cours cours);
         string[] consulterEleve(string intiule);
-
+         Cours[] afficherCours();
     }
 }
