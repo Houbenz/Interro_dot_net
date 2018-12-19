@@ -1,0 +1,8 @@
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEleve\bin\Debug\ClientEleve.exe.config
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEleve\bin\Debug\ClientEleve.exe
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEleve\bin\Debug\ClientEleve.pdb
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEleve\bin\Debug\ClassLibrary1.dll
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEleve\bin\Debug\ClassLibrary1.pdb
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEleve\obj\Debug\ClientEleve.exe
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEleve\obj\Debug\ClientEleve.pdb
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEleve\obj\Debug\ClientEleve.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEnseignant\bin\Debug\ClientEnseignant.exe.config
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEnseignant\bin\Debug\ClientEnseignant.exe
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEnseignant\bin\Debug\ClientEnseignant.pdb
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEnseignant\bin\Debug\ClassLibrary1.dll
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEnseignant\bin\Debug\ClassLibrary1.pdb
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEnseignant\obj\Debug\ClientEnseignant.exe
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEnseignant\obj\Debug\ClientEnseignant.pdb
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\ClientEnseignant\obj\Debug\ClientEnseignant.csprojResolveAssemblyReference.cache

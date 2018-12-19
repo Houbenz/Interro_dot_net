@@ -1,0 +1,8 @@
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\Server\bin\Debug\Server.exe.config
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\Server\bin\Debug\Server.exe
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\Server\bin\Debug\Server.pdb
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\Server\bin\Debug\ClassLibrary1.dll
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\Server\bin\Debug\ClassLibrary1.pdb
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\Server\obj\Debug\Server.exe
+c:\users\houbenz\documents\visual studio 2015\Projects\Controle\Server\obj\Debug\Server.pdb
