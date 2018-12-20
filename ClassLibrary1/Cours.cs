@@ -12,11 +12,12 @@ namespace ClassLibrary1
         int nbrplace;
         int nbreSeance;
         string nomCours;
-
+        List<String> etudiantsInscris;
 
         public Cours(string nomCours, int nbreplace, int nbreSeance)
         {
-
+            this.nomCours = nomCours;this.Nbrplace = nbreplace;this.nbreSeance = nbreSeance;
+            EtudiantsInscris = new List<string>();
         }
 
         public int Nbrplace
@@ -58,9 +59,17 @@ namespace ClassLibrary1
             }
         }
 
-    
+        public List<string> EtudiantsInscris
+        {
+            get
+            {
+                return etudiantsInscris;
+            }
 
-
-
+            set
+            {
+                etudiantsInscris = value;
+            }
+        }
     }
 }

@@ -17,23 +17,22 @@ namespace ClientEnseignant
             TcpChannel chnl = new TcpChannel();
             ChannelServices.RegisterChannel(chnl, false);
 
-            Iteacher teacherImp = (Iteacher)Activator.GetObject(typeof(Iteacher), "tcp://localhost:1111/file");
+            Iteacher teacherImp = (Iteacher)Activator.GetObject(typeof(Iteacher), "tcp://localhost:1111/Impl");
 
             Console.WriteLine("Enseignant");
 
             Console.WriteLine(teacherImp.ajouterCours(new Cours("SR", 3, 1)));
             Console.WriteLine(teacherImp.ajouterCours(new Cours("SD", 0, 2)));
             Console.WriteLine(teacherImp.ajouterCours(new Cours("PLF", 4, 2)));
-            
-     
-            Cours[] cours = teacherImp.afficherCours();
-            for(int i = 0; i < cours.Length; i++)
+
+
+            List<Cours> cours = teacherImp.afficherCours();
+
+            foreach(Cours c in cours)
             {
-                Console.WriteLine(cours[i].NomCours);
+                Console.WriteLine(c.NomCours);
             }
-
-            Console.ReadLine();
-
+        
         }
     }
 }

@@ -9,7 +9,7 @@ namespace ClassLibrary1
     public interface Iteacher
     {
         bool ajouterCours(Cours cours);
-        string[] consulterEleve(string intiule);
-         Cours[] afficherCours();
+        List<string> consulterEleve(string intiule);
+         List<Cours> afficherCours();
     }
 }

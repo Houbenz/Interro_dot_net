@@ -20,18 +20,14 @@ namespace ClientEleve
             Istudent eleve = (Istudent)Activator.GetObject(typeof(Istudent), "tcp://localhost:1111/Impl");
 
             Console.WriteLine("Eleve");
-            Cours[] cours = eleve.consulterCours();
+         
 
-
-            Console.WriteLine(eleve.inscrire("houcine", "SR"));
+       
+            Console.WriteLine(eleve.inscrire("houcine", "SD"));
 
             Console.WriteLine(eleve.inscrire("houcine", "PFL"));
 
-            for (int i = 0; i < cours.Length; i++)
-            {
-                Console.WriteLine(cours[i].NomCours);
-            }
-   
+    
 
 
         }

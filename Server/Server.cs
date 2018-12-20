@@ -16,7 +16,7 @@ namespace Server
             TcpChannel chnl = new TcpChannel(1111);
             ChannelServices.RegisterChannel(chnl, false);
 
-            RemotingConfiguration.RegisterWellKnownServiceType(typeof(Impl), "file", WellKnownObjectMode.Singleton);
+            RemotingConfiguration.RegisterWellKnownServiceType(typeof(Impl), "Impl", WellKnownObjectMode.Singleton);
             Console.WriteLine("server is running");
             Console.ReadLine();
 

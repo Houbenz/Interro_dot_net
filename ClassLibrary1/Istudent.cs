@@ -9,7 +9,7 @@ namespace ClassLibrary1
     public interface Istudent
     {
 
-        Cours[] consulterCours();
+        List<Cours> consulterCours();
 
         bool inscrire(string eleve, string intitule);
     }
